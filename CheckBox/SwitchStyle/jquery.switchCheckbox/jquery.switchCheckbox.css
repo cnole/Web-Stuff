@@ -1,0 +1,43 @@
+.switchCheckBox{
+	background:url('background.png') no-repeat right bottom;
+	display:inline-block;
+	min-width:60px;
+	height:33px;
+	white-space:nowrap;
+	position:relative;
+	cursor:pointer;
+	margin-left:14px;
+}
+
+.switchCheckBox.checked{
+	background-position:top left;
+	margin:0 14px 0 0;
+}
+
+.switchCheckBox .switchCBContent{
+	color: white;
+	line-height: 31px;
+	padding-right: 38px;
+	text-align: right;
+}
+
+.switchCheckBox.checked .switchCBContent{
+	text-align:left;
+	padding:0 0 0 38px;
+}
+
+.switchCBPart{
+	background:url('background.png') no-repeat left bottom;
+	width:14px;
+	position:absolute;
+	top:0;
+	left:-14px;
+	height:33px;
+	overflow: hidden;
+}
+
+.switchCheckBox.checked .switchCBPart{
+	background-position:top right;
+	left:auto;
+	right:-14px;
+}

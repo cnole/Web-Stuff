@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Switch Style Check Boxes with jQuery and CSS</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+	<link rel="stylesheet" type="text/css" href="jquery.switchCheckbox/jquery.switchCheckbox.css" media="all">
+</head>
+<body>
+	
+	<div id="page">
+		<form action="./" method="get">
+			<ul>
+				<li>
+					<label for="ch_effects">Display effects:</label>
+					<input type="checkbox" id="ch_effects" name="ch_effects" data-on="Show effects" data-off="Hide effects" />
+				</li>
+				<li>
+					<label for="ch_location">Enable location tracking:</label>
+					<input type="checkbox" id="ch_location" name="ch_location" checked />
+				</li>
+				<li>
+					<label for="ch_showsearch">Include me in search results:</label>
+					<input type="checkbox" id="ch_showsearch" name="ch_showsearch" />
+				</li>
+				<li>
+					<label for="ch_emails">Email notifications:</label>
+					<input type="checkbox" id="ch_email" name="ch_email" data-on="ON" data-off="OFF" />
+				</li>
+			</ul>
+		</form>
+	</div>
+	
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+	<script type="text/javascript" src="jquery.switchCheckbox/jquery.switchCheckbox.js"></script>
+	<script type="text/javascript" src="js/application.js"></script>
+</body>
+</html>

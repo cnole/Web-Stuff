@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: url("../images/bg_tile.jpg") #18222b;
+}
+
+body {
+	color: #fcfcfc;
+	font: 14px/1.3 'Segoe UI', Arial, sans-serif;
+	min-height: 930px;
+	background: url("../images/bg_center.jpg") center 240px no-repeat;
+}
+
+a, a:visited {
+	text-decoration: none;
+	outline: none;
+	color: #54a6de;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	background: url("../images/header.png") repeat-x;
+	display: block;
+	height: 220px;
+	padding: 10px;
+}
+
+h1 {
+	background: url("../images/logo.png") no-repeat center center;
+	height: 80px;
+	margin: 75px auto;
+	overflow: hidden;
+	text-align: center;
+	text-indent: -99999px;
+}
+
+#filter {
+	background: url("../images/bar.png") repeat-x 0 -94px;
+	display: block;
+	height: 39px;
+	margin: 55px auto;
+	position: relative;
+	width: 600px;
+	text-align: center;
+	
+	-moz-box-shadow: 0 4px 4px #000;
+	-webkit-box-shadow: 0 4px 4px #000;
+	box-shadow: 0 4px 4px #000;
+}
+
+#filter:before, #filter:after {
+	background: url("../images/bar.png") no-repeat;
+	height: 43px;
+	position: absolute;
+	top: 0;
+	width: 78px;
+	content: ' ';
+	
+	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#filter:before {
+	background-position: 0 -47px;
+	left: -78px;
+}
+
+#filter:after {
+	background-position: 0 0;
+	right: -78px;
+}
+
+#filter a {
+	color: #ffffff;
+	display: inline-block;
+	height: 39px;
+	line-height: 37px;
+	padding: 0 15px;
+	text-shadow: 1px 1px 1px #315218;
+}
+
+#filter a:hover {
+	text-decoration: none;
+}
+
+#filter a.active {
+	background: url("../images/bar.png") repeat-x 0 -138px;
+	
+}
+
+#container {
+	display: block;
+	overflow: hidden;
+	width: 830px;
+	margin: 0 auto;
+}
+
+#container li {
+	float: left;
+	height: 96px;
+	width: 125px;
+	list-style: none outside none;
+	margin: 6px;
+	position: relative;
+	
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;
+}
+
+#container ul {
+	overflow: hidden;
+}
+
+#container ul.hidden {
+	display: none;
+}
+
+footer {
+	display: block;
+	background-color: #13181d;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	bottom: 0;
+	left: 0;
+	z-index: 100000;
+}
+
+footer h2 {
+	font-size: 20px;
+	font-weight: normal;
+	left: 50%;
+	margin-left: -400px;
+	padding: 22px 0;
+	position:absolute;
+	width: 600px;
+	color: #eee;
+}
+
+footer a.me, a.me:visited {
+	border: none;
+	text-decoration: none;
+	color: #fcfcfc;
+	font-size: 12px;
+	height: 70px;
+	left: 58%;
+	line-height: 31px;
+	margin: 23px 0 0 100px;
+	position: absolute;
+	top: 0;
+	width: 190;
+}

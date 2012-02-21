@@ -1,0 +1,190 @@
+/* CSS reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+
+html,body {
+	margin:0;
+	padding:0;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+fieldset,img { 
+	border:0;
+}
+
+input{
+	border:1px solid #b0b0b0;
+}
+
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+ol,ul {
+	list-style:none;
+}
+
+caption,th {
+	text-align:left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+q:before,q:after {
+	content:'';
+}
+
+abbr,acronym { border:0;
+}
+
+/* Styles */
+
+body {
+	background: #f9f9f9 url(../images/stucco.png) repeat top left;
+	color: #333;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 13px;
+}
+
+.container {
+	position: relative;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.content {
+	position: relative;
+	width: 680px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 0px;
+	padding: 20px 20px 10px 20px;
+	font-size: 34px;
+	color: #333;
+	text-shadow: 1px 1px 1px #fff;
+	text-align: center;
+	font-weight: 400;
+}
+
+h1 span {
+	display: block;
+	font-size: 14px;
+	font-family: Georgia, serif;
+	font-style: italic;
+	color: #aaa;
+	padding-top: 10px;
+}
+
+.more {
+	position: relative;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 5px 0 5px;
+	width: 372px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.more ul {
+	display: block;
+	text-align: center;
+	height: 30px;
+}
+
+.more ul li {
+	display: block;
+	padding: 4px 2px;
+	float: left;
+}
+
+.more ul li.active a, .more ul li.active a:hover {
+	background: #aaaaaa;
+	color: #ffffff;
+	text-shadow: none;
+}
+
+.more ul li a {
+	color: #555555;
+	float: left;
+	background: #ffffff;
+	width: auto;
+	padding: 5px 8px;
+	font-size: 12px;
+	-moz-box-shadow: 1px 1px 2px #aaaaaa;
+	-webkit-box-shadow: 1px 1px 2px #aaaaaa;
+	box-shadow: 1px 1px 2px #aaaaaa;
+}
+
+.more ul li a:hover {
+	background: #000000;
+	color: #ffffff;
+}
+
+.buttonWrapper {
+	width: 320px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.buttonWrapperLarge {
+	width: 50px;
+	margin: 0 auto;
+	padding: 20px 0;
+	height: 80px;
+}
+
+footer {
+	display: block;
+	background-color: #13181d;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	bottom: 0;
+	left: 0;
+	z-index: 100000;
+}
+
+footer h2 {
+	font-size: 20px;
+	font-weight: normal;
+	left: 50%;
+	margin-left: -400px;
+	padding: 22px 0;
+	position:absolute;
+	width: 600px;
+	color: #779fcf;
+}
+
+footer a.me, a.me:visited {
+	border: none;
+	text-decoration: none;
+	color: #fcfcfc;
+	font-size: 15px;
+	height: 70px;
+	left: 58%;
+	line-height: 31px;
+	margin: 23px 0 0 100px;
+	position: absolute;
+	top: 0;
+	width: 190;
+	
+	text-shadow: 0 -1px 0 rgba(0.3, 0.3, 0.3, 1.0);
+}
